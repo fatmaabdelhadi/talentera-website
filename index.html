@@ -1,0 +1,178 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talentera Website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Hero Div -->
+    <div class="hero">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i><span class="logo">Logo</span></a></li>
+                <li><a href="#team" class="team-nav">Team</a></li>
+                <li><a href="#work" class="work-nav">Work</a></li>
+                <li><a href="#" class="price-nav">Price</a></li>
+                <li><a href="#" class="contact-nav">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#"><span class="drop-span">Dropdown</span><i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Service 1</a>
+                        <a href="#">Service 2</a>
+                        <a href="#">Service 3</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="search-bar">
+                <input class="input" type="type" placeholder="Search..." />
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="company-name">
+            <p class="bottom-text">Talentera</p>
+        </div>
+    </div>
+    <!-- Our Team -->
+    <div id="team">
+        <h1>OUR TEAM</h1>
+        <p>Meet our team - our office rats:</p>
+        <div class="team-container">
+            <div class="team-member">
+                <div class="circle">
+                    <img src="images/headshot4.jpg" alt="Team Member">
+                </div>
+                <h3>Islam AlZatary</h3>
+                <p>Web Designer</p>
+            </div>
+            <div class="team-member">
+                <div class="circle">
+                    <img src="images/headshot2.jpg" alt="Team Member">
+                </div>
+                <h3>Tayseer Emam</h3>
+                <p>Support</p>
+            </div>
+            <div class="team-member">
+                <div class="circle">
+                    <img src="images/headshot3.jpg" alt="Team Member">
+                </div>
+                <h3>Eman Subhi</h3>
+                <p>Boss</p>
+            </div>
+            <div class="team-member">
+                <div class="circle">
+                    <img src="images/headshot1.jpg" alt="Team Member">
+                </div>
+                <h3>Reem Yakoub</h3>
+                <p>Fixer</p>
+            </div>
+        </div>
+    </div>
+    <div class="middle-button-container">
+        <!-- Our Work -->
+        <div id="work">
+            <div class="work-content">
+                <h1>Our Work</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, animi. Ipsam odit, accusamus asperiores
+                    at odio repudiandae totam. Neque culpa pariatur corrupti veniam, cumque quos architecto quam saepe
+                    maxime sapiente autem explicabo esse harum dolorum, rerum voluptatem praesentium ipsam facere. Quas
+                    cumque amet dolorem voluptatum adipisci. Voluptatem autem dolor quisquam, eligendi ex harum facilis
+                    alias, sed nemo porro neque earum laboriosam quis labore! In vero temporibus quidem pariatur sint
+                    delectus?</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/landscape1.jpg" alt="Card Image">
+                    <div class="card-content">
+                        <h2>Customer 1</h2>
+                        <h3>Trade</h3>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/landscape2.jpg" alt="Card Image">
+                    <div class="card-content">
+                        <h2>Customer 2</h2>
+                        <h3>Trade</h3>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/landscape3.jpg" alt="Card Image">
+                    <div class="card-content">
+                        <h2>Customer 3</h2>
+                        <h3>Trade</h3>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Circle Plus Button -->
+            <div class="circle-button">
+                <span>+</span>
+            </div>
+        </div>
+        <!-- Our Contacts -->
+        <div id="contact-us">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <p>Swing by for a cup of coffee, or whatever.</p>
+                <div><i class="fa-solid fa-location-dot"></i><span>Amman, Jordan</span></div>
+                <div><i class="fa-solid fa-phone"></i><span>+962 79 0000000</span></div>
+                <div><i class="fa-solid fa-envelope"></i><span>test@test.com</span></div>
+            </div>
+            <div class="newsletter-card">
+                <div class="newsletter-form">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <div class="checkbox-and-button">
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="like" name="like">
+                                <label for="like">I Like It!</label>
+                            </div>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <p class="follow-us">Follow Us</p>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-chevron-up"></i></button>
+</body>
+</html>
